@@ -51,8 +51,8 @@ header.hero{
 header.hero.compact{padding:64px 0 40px;}
 .hero-main{flex:1 1 320px;min-width:0;}
 .avatar{
-  width:136px;height:136px;min-width:136px;min-height:136px;
-  max-width:136px;max-height:136px;border-radius:50%;
+  width:184px;height:184px;min-width:184px;min-height:184px;
+  max-width:184px;max-height:184px;border-radius:50%;
   background:var(--accent);color:#faf8f5;
   display:flex;align-items:center;justify-content:center;
   font-family:'Source Serif 4',serif;font-weight:600;font-size:1.5rem;
@@ -60,11 +60,11 @@ header.hero.compact{padding:64px 0 40px;}
   flex-shrink:0;
 }
 .avatar img{
-  width:136px;height:136px;object-fit:cover;display:block;
+  width:184px;height:184px;object-fit:cover;display:block;
 }
 @media (max-width:520px){
-  .avatar{width:96px;height:96px;min-width:96px;min-height:96px;max-width:96px;max-height:96px;}
-  .avatar img{width:96px;height:96px;}
+  .avatar{width:120px;height:120px;min-width:120px;min-height:120px;max-width:120px;max-height:120px;}
+  .avatar img{width:120px;height:120px;}
 }
 header.hero h1{font-size:2.1rem;letter-spacing:-.01em;}
 header.hero.compact h1{font-size:1.7rem;}
